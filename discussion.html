@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Тема обговорення</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1 id="topic">Тема</h1>
+    <nav>
+        <a href="discussions.html">← Назад до тем</a>
+    </nav>
+
+   </header>
+
+<main class="container">
+    <div id="messages"></div>
+
+    <h3>Нове повідомлення</h3>
+    <textarea id="text" placeholder="Ваше повідомлення"></textarea>
+    <br><br>
+    <button onclick="send()">Надіслати</button>
+</main>
+
+<script src="js/guard.js"></script>
+<script src="js/discussion.js"></script>
+</body>
+</html>

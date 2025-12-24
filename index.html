@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Головна</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/guard.js"></script>
+</head>
+
+<script src="js/auth.js"></script>
+
+
+
+<body>
+
+<header>
+    <h1>Інформаційний веб-сайт</h1>
+    <nav class="nav">
+    <div class="nav-left">
+        <a href="index.html">Головна</a>
+        <a href="articles.html">Статті</a>
+        <a href="discussions.html">Обговорення</a>
+        <a href="about.html">Про сайт</a>
+        <a href="contacts.html">Контакти</a>
+    </div>
+
+    <div class="nav-right">
+        <a href="login.html" id="loginBtn">Увійти</a>
+        <a href="#" id="logoutBtn" onclick="logout()">Вийти</a>
+    </div>
+</nav>
+
+</header>
+
+<img src="images/banner.jpg" class="banner" alt="Banner">
+
+<main>
+    <h2>Ласкаво просимо!</h2>
+    <p>
+        Даний веб-сайт створено в рамках курсової роботи з дисципліни
+        «Веб-технології». Метою проєкту є ознайомлення користувачів
+        з сучасними комп’ютерними та веб-технологіями.
+    </p>
+
+    <section class="cards">
+        <div class="card">
+            <img src="images/programming.jpg" alt="Programming">
+            <h3>Комп’ютерні технології</h3>
+            <p>
+                Основи сучасних комп’ютерних систем, апаратне та програмне забезпечення.
+            </p>
+            <a href="article1.html">Читати більше</a>
+        </div>
+
+        <div class="card">
+            <img src="images/web.jpg" alt="Web">
+            <h3>Веб-технології</h3>
+            <p>
+                HTML, CSS, JavaScript та принципи розробки сучасних веб-сайтів.
+            </p>
+            <a href="article2.html">Читати більше</a>
+        </div>
+
+        <div class="card">
+            <img src="images/os.jpg" alt="OS">
+            <h3>Операційні системи</h3>
+            <p>
+                Огляд операційних систем, їх функцій та призначення.
+            </p>
+            <a href="article3.html">Читати більше</a>
+        </div>
+    </section>
+</main>
+
+</body>
+</html>
